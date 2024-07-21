@@ -1,4 +1,4 @@
 export const WHITELIST_DOMAINS = [
   // 'http://localhost:5173',
-  'https://weather-web.vercel.app'
+  'https://weather-m2e7izncm-phuoctris-projects.vercel.app'
 ]
