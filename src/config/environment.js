@@ -6,5 +6,7 @@ export const env = {
   LOCAL_DEV_APP_HOST: process.env.LOCAL_DEV_APP_HOST,
   LOCAL_DEV_APP_PORT: process.env.LOCAL_DEV_APP_PORT,
   BUILD_MODE: process.env.BUILD_MODE,
-  AUTHOR: process.env.AUTHOR
+  AUTHOR: process.env.AUTHOR,
+  MAILTRAP_USERNAME: process.env.MAILTRAP_USERNAME,
+  MAILTRAP_PASSWORD: process.env.MAILTRAP_PASSWORD
 }

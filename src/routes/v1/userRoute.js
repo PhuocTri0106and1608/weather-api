@@ -7,6 +7,9 @@ const Router = express.Router()
 Router.route('/')
   .post(userController.createNew)
 
+Router.route('/verify/:userId')
+  .post(userController.verify)
+
 Router.route('/weather/:userId/:city/:days')
   .get(userController.getWeather)
 
